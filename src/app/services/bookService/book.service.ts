@@ -9,4 +9,5 @@ export class BookService {
 
   getBook() {
     return this.httpService.get('bookstore_user/get/book');
-  }}
+  }
+}
