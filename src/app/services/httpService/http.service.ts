@@ -7,6 +7,7 @@ import {HttpClient, HttpHeaders} from '@angular/common/http';
 export class HttpService {
   baseUrl=environment.baseUrl
   constructor(private http:HttpClient) { }
+  
   post(url,data){
     console.log(" data in http ", data);
     return this.http.post(this.baseUrl + url , data);
