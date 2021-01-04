@@ -33,4 +33,5 @@ export class MyCartComponent implements OnInit {
   setStep(index) {
     this.step = index;
   }
+  
 }
